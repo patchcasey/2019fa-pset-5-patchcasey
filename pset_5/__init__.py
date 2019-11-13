@@ -1,5 +1,4 @@
 from pkg_resources import get_distribution, DistributionNotFound
-
 # adapted from Professor Gorlin's slide
 
 try:
