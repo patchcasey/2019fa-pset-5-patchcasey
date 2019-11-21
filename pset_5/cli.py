@@ -1,3 +1,9 @@
+from luigi import build
+from .tasks import CleanedReviews
+import os
 
 def main():
-    pass
+    build([
+        CleanedReviews(
+
+        )], local_scheduler=True)
